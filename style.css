@@ -1,0 +1,53 @@
+body {
+	background-color: #444;
+	font-family: sans-serif;
+	margin-top: 50px;
+}
+
+#container {
+	background-color: #aaa;
+	padding: 20px;
+	margin: 40px auto; 
+	overflow: hidden; 
+	width: 800px; 
+	border-radius:25px;
+}
+
+#editor {
+	width: 100%;
+	min-height: 100px;
+}
+
+
+.clear {
+	clear:both;
+	height:0;
+	line-height:0;
+	display:block;
+}
+
+input {
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	padding: 5px;
+}
+
+.ybtycss {
+	color: red;
+}
+
+.ybfcss {
+	color: blue;
+}
+
+.ybkwcss {
+	color: yellow;
+}
+
+.comments {
+	color: gray;
+}
+
+
+
