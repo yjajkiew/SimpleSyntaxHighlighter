@@ -1,0 +1,21 @@
+#container #result {
+	color: #d3d3d3;
+	background-color: #000;
+	font-family: "Monaco";
+}
+
+.ybtycss {
+	color: #ffaa3e;
+}
+
+.ybfcss {
+	color: #81cef9;
+}
+
+.ybkwcss {
+	color: #00efef;
+}
+
+.comments {
+	color: #f75207;
+}

@@ -24,6 +24,10 @@ html, body {
 	font-size: 14px;
 }
 
+#header #options input:focus, #header #options select:focus {
+	outline: none;
+}
+
 #header #options ul {
 	list-style-type: none;
 }
