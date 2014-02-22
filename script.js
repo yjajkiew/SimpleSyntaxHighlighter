@@ -14,6 +14,10 @@ $(document).ready( function() {
 		switch($("#style").val()) {
 			case "dark": changeStyle("dark"); break;
 			case "light": changeStyle("light"); break;
+			case "django": changeStyle("django"); break;
+			case "eclipse": changeStyle("eclipse"); break;
+			case "emacs": changeStyle("emacs"); break;
+			case "midnight": changeStyle("midnight"); break;
 		}
 	});
 
@@ -38,6 +42,11 @@ function formatAndColorCode(rawCode) {
 
 function changeStyle(style) {
 	removejscssfile("style-dark.css", "css");
+	removejscssfile("style-light.css", "css");
+	removejscssfile("style-django.css", "css");
+	removejscssfile("style-eclipse.css", "css");
+	removejscssfile("style-emacs.css", "css");
+	removejscssfile("style-midnight.css", "css");
 
 	loadjscssfile("style-"+style+".css", "css");
 }
