@@ -3,23 +3,51 @@
 <html lang="fr"> 
 <head>
 	<meta charset="utf-8" />
-	<title>Liste de Tâches</title>
+	<title>Simple Syntax Highlighter</title>
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 	<link href="style.css" rel="stylesheet" type="text/css" media="screen"/> 
+	<link href="style-dark.css" rel="stylesheet" type="text/css" media="screen"/> 
 	<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="lang-javascript.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
+	<div id="header">
+		<div id="title">Simple Syntax Highlighter</div>
+		<div id="options">
+			<ul>
+				<li><input type="checkbox" name="action" value="format" checked>Format</li>
+				<li><input type="checkbox" name="action" value="color" checked>Color</li>
+				<li>Language 
+					<select id="language" name="language">
+  						<option value="javascript">javascript</option>
+  						<option value="php">PHP</option>
+					</select>
+				</li>
+				<li>Style
+					<select id="style" name="style">
+  						<option value="dark">Dark</option>
+  						<option value="light">Light</option>
+					</select>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
 	<div id="container">
 		<div>
-			<textarea id="editor"></textarea>
+			<textarea id="editor" placeholder="Insert code here."></textarea>
 		</div>
-		<div id="test"></div>
-		<div id="result" class="editor-result" contenteditable="false">
+		<div id="test" style="display: none;"></div>
+		<div id="result" contenteditable="false">
 			
 		</div>
 		<div class="clear"></div>
+	</div>
+	<div id="footer">
+		<p class="left">ISTIA Ei5 AGI HTML</p>
+		<p class="right">Developed by Baptiste Gauduchon, Victor Durand and Yann Jajkiewicz</p>
 	</div>
 </body> 
 </html>
