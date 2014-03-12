@@ -53,6 +53,7 @@ function changeStyle(style) {
 
 function changeLanguage(language) {
 	removejscssfile("lang-javascript.js", "js");
+	removejscssfile("lang-php.js", "js");
 
 	loadjscssfile("lang-"+language+".js", "js");
 }

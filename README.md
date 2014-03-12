@@ -48,6 +48,7 @@ The development of this project is not done yet and has been temporarily suspend
  Display number of lines next to the code | in progress
  Fix Bug #1 | to do
  Fix Bug #2 | to do
+ Fix Bug #3 | in progress
 
 Bugs
 ===========
@@ -58,4 +59,5 @@ Here's a list of bugs we have encountered:
  -------|-------------
  #1     | Comments begin by `//` and finish by `\n`, problem detecting the carriage return
  #2     | Problem detecting `<?`, `<?php`, `?>` for the PHP language
+ #3     | Coloration doesn't work when switching languages
  
