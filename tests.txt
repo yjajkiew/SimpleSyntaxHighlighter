@@ -1,7 +1,0 @@
-javascript:
-
-function test(input) { boolean test = code.length; if(test) {  /* envoi d'un message de test */  alert("coucou");  } }
-
-php:
-
-
