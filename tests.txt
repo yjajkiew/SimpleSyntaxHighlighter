@@ -1,6 +1,6 @@
 javascript:
 
-function test(input) { boolean test = code.length; if(test) {  /* envoi d'un message de test */  alert("coucou");  } }
+function test(input) { var test = input.length(); if(test) {  /* envoi d'un message de test */  alert("coucou"); console.log("test = " + test);  } }
 
 php:
 
