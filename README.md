@@ -49,6 +49,8 @@ The development of this project is not done yet and has been temporarily suspend
  Fix Bug #1 | to do
  Fix Bug #2 | to do
  Fix Bug #3 | in progress
+ Get rid of JQuery | to do
+ Minify `script.js`| last thing to do
 
 Bugs
 ===========
